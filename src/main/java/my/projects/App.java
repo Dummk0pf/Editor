@@ -6,6 +6,7 @@ package my.projects;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        TextEditor textEditor = new TextEditor();
+        textEditor.openNewFile("");
     }
 }
